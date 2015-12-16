@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        小美生活
+    </title>
+    <link rel="stylesheet" type="text/css" href="popup.css" />
+</head>
+
+<body>
+    <div id="content">
+        <div id="J_msg">1111111</div>
+        <div class="headerBg">
+            小美后台多账号登陆
+            <span>v1.0</span>
+        </div>
+        <div id="J_addUser">
+            <ul class="addUser">
+                <li>
+                    <span>用户名:</span>
+                    <input type="text" placeholder="用户名" id="J_username" value="">
+                </li>
+                <li>
+                    <span>密码:</span>
+                    <input type="text" placeholder="密码" id="J_password" value="">
+                </li>
+            </ul>
+            <div>
+                <button id="J_start">
+                    添加账号
+                </button>
+            </div>
+        </div>
+        <div class="userList" style="">
+            <p class="loginText">
+                <span id="J_tipsAdd">你可选择以下账号登陆，也可以</span>
+                <button id="J_addAmount">添加账号</button>
+            </p>
+            <ul class="userList" id="J_userList">
+            </ul>
+        </div>
+        <div>
+            <ul class="addUser ft-debugger">
+                <li>
+                    <span style="width:100%;display:block;">前端本地调试-指定环境：</span>
+                    <input type="text" placeholder="dev" id="J_url" value="">
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="jquery-2.0.0.min.js"></script>
+<script src="popup.js"></script>
+<script src="md6.js"></script>
+
+</html>

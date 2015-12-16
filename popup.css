@@ -1,0 +1,203 @@
+﻿body {
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    padding: 1px;
+}
+
+#message {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 0.85em;
+}
+
+table,
+td {
+    text-align: center;
+}
+
+td {
+    padding: 4px;
+    text-overflow: ellipsis;
+}
+
+td.item-name {
+    text-align: right;
+}
+
+button:focus {
+    outline: none;
+}
+
+input:focus {
+    border: 1px solid #389e48;
+    outline: none;
+    line-height: 18px;
+    height: 18px;
+    padding: 1px 5px;
+}
+
+input {
+    line-height: 18px;
+    height: 18px;
+    padding: 1px 5px;
+    border: 1px solid #bfbfbf;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    width: 250px;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+}
+
+#J_start {
+    text-align: center;
+    width: 222px;
+    height: 22px;
+    margin-left: 15px;
+    background-color: #389e48;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.userList {
+    margin: 0px;
+    padding: 0;
+}
+
+.userList li {
+    list-style: none;
+    border-top: 1px solid #bfbfbf;
+    line-height: 23px;
+    height: 23px;
+    padding: 4px 10px 4px 10px;
+    font-size: 14px;
+    position: relative;
+}
+
+.userList li:hover .editIcon,
+.userList li:hover .delIcon {
+    opacity: 1;
+}
+
+.userList li .img {
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.loginText {
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    border-top: 1px solid #bfbfbf;
+    padding: 7px 0;
+}
+
+.addUser {
+    padding: 5px 10px 0 5px;
+    text-align: center;
+    margin-bottom: 5px;
+    float: left;
+}
+
+.addUser li {
+    float: left;
+    width: 100%;
+    line-height: 23px;
+    margin: 3px 0;
+}
+
+.addUser input {
+    width: 160px;
+}
+
+.addUser span {
+    width: 60px;
+    float: left;
+}
+
+#J_addUser {
+    overflow: hidden;
+    height: 0;
+}
+
+.controlBox {
+    width: 50px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 8px;
+}
+
+.editIcon,
+.delIcon {
+    width: 20px;
+    height: 16px;
+    background: url(bg.png) no-repeat;
+    color: #fff;
+    text-indent: -2000em;
+    background-size: 100%;
+    cursor: pointer;
+    display: inline-block;
+    opacity: 0.2;
+}
+
+.editIcon {
+    background-position: 0 0;
+}
+
+.delIcon {
+    background-position: 0 -15px;
+}
+
+#J_msg {
+    width: 250px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    color: #fff;
+    background-color: #ff4366;
+    text-align: center;
+    margin: -20px auto 0;
+}
+
+.headerBg {
+    width: 200px;
+    height: 23px;
+    border-bottom: 2px solid #389e48;
+    border-radius: 3px;
+    background: url(header_bg.png) no-repeat;
+    background-size: 100%;
+    padding: 5px 0 0 50px;
+    color: #389e48;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.headerBg span {
+    font-size: 12px;
+}
+
+.ft-debugger {
+    border-top: 1px solid #bfbfbf;
+    text-align: left;
+    padding-left: 12px;
+}
+#J_url{
+	width: 95%;
+}
