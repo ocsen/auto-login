@@ -68,6 +68,8 @@ $(function() {
                     URLMap = "https://backend.xiaomei.com/bs/";
                 } else if (localUrl.indexOf('https://rc.backend.xiaomei.com') > -1) {
                     URLMap = "https://rc.backend.xiaomei.com/bs/";
+                }else if (localUrl.indexOf('http://localhost') > -1) {
+                    URLMap = "https://dev.backend.xiaomei.com/bs/";
                 }
             }
         } else {
